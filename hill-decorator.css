@@ -34,17 +34,28 @@ justify-content: space-between;
     justify-content: space-between;
     height:100vh;
 }
-#items-container{
+.items-container{
     display: flex;
-    justify-content: space-around;
+    max-height:8rem;
     width: 100%;
+    overflow-x: auto;
 }
-.item{
+.items-container .item{
+    min-width: 6rem;
+    height: 6rem;
+    line-height: 6rem;
+    text-align: center;
     border-radius: 10px;
     border: 1px solid #707070;
-
-    width: 6rem;
-    height: 6rem;
     background-color: rgb(255, 255, 255);
-
+}
+.items-container::-webkit-scrollbar{
+    width: 0;
+}
+.item{
+    margin-left: 2em;
+}
+#return-arrow{
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
