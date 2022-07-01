@@ -64,13 +64,30 @@ justify-content: space-between;
 #return-arrow{
     margin-top: 1rem;
     margin-left: 1rem;
+    position: absolute;
+    border: 0;
+    
+    
 }
+
+#return-arrow2{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    position: absolute;
+    border: 0;}
+    
 #landscape-container{
     border-radius: 10px;
     width: 70vw;
     height: 60vh;
     border: 1px solid #707070;
     margin-left: 15vw;
+    margin-top: 10vh;
+}
+#landscape-container div img{
+    width:300%;
+    height:300%;
+
 }
 #landscape-img{
     border-radius: 10px;
@@ -78,17 +95,18 @@ justify-content: space-between;
     height: 60vh;
 }
 .item   {
-    width: 2em;
-    height: 2em;
+    width: 3em;
+    height: 3em;
     cursor: pointer;
     color:aqua;
 }
 .img{
-    width: 2em;
-    height: 2em;
+    width: 3em;
+    height: 3em;
     left:0;
     position: absolute;
     cursor: pointer;
     color:aqua;
   
 }
+
